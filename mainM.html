@@ -1,0 +1,47 @@
+
+<html>
+<head>
+
+    <title>INST377: Final Project - Home</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="fullPage">
+        <div id="header">
+            <h1>Home Page!</h1>
+        </div>
+        <div id="navBar">
+            <ul>
+                <li><a href="mainM.html">Home</a></li>
+                <li><a href="Movie_title_info.html">Movie Title & Info</a></li>
+                <li><a href="about.html">About Page</a></li>
+            </ul>
+        </div>
+        <div id="introBox">
+            <h2>Welcome to My Entertainment Site!</h2>
+            <p>We are dedicated to providing you with the latest information on movies and TV shows. Our website allows you to search for movies, view detailed information about them, and discover related movies based on genres.</p>
+            <h3>Features</h3>
+            <ul>
+                <li>Search for movies and TV shows</li>
+                <li>View detailed information about movies</li>
+                <li>Discover related movies by genre</li>
+                <li>Read user comments and reviews</li>
+                <li>Watch trailers and additional media</li>
+            </ul>
+        </div>
+        <div class="buttonContainer">
+            <button id="aboutRedirect" onclick="redirect()">Learn more About us!</button>
+        </div>
+
+        <div style="width:612px; height:612px" data-simple-slider>
+            <img src="https://picsum.photos/612/612?random=1"/>
+            <img src="https://picsum.photos/612/612?random=2"/>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
+          <script>
+            simpleslider.getSlider();
+          </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+#navBar {
+    margin: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: salmon;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navBar ul li {
+    display: inline ;
+    margin-left: 5px;
+    font-size: 20px;
+    padding: 5px;
+
+    outline-color: rgb(141, 12, 12);
+    background-color:floralwhite;
+}
+
+#navBar li a {
+    text-decoration: none;
+}
+
+#navBar li:hover {
+    background-color: salmon;
+}
+
+
+#fullPage {
+    background-color: wheat;
+    height: 100%;
+}
+
+#introBox li {
+    font-size: 25px;
+    list-style-type: square;
+}
